@@ -1,0 +1,52 @@
+* {
+    background-color: white;
+}
+
+main {
+    padding: 50px 100px;
+}
+.section-header {
+   
+    color: darkblue;
+    display: inline-block;
+    padding-right: 20px;
+    width: 220px;
+    position: relative;
+    bottom: 0px;
+    font-size: 200%;
+    }
+
+
+.section-body{
+    display:inline-block;
+    padding-left: 80px;
+    font-size: 130%;
+    border-color: darkblue;
+    border-left-style: solid;
+
+}
+
+.section-block {
+    margin: 40px 0px;
+}
+
+
+
+
+.work-card {
+    display: block;
+}
+
+@media screen and (max-width: 1024px) {
+    .section-header{
+        display:block;
+    }
+
+    .section-body {
+        display: block;
+    }
+}
+
+button :hover .work-card {
+        cursor:hand;
+}
