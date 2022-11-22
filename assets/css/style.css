@@ -34,7 +34,11 @@ main {
 
 
 .work-card {
-    display: block;
+    display: flex;
+    border-style: solid;
+    border: 3px;
+    border-color: lightskyblue;
+    background-image: 
 }
 
 @media screen and (max-width: 1024px) {
