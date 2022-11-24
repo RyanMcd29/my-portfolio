@@ -1,3 +1,7 @@
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 :root {
     --card-border: lightskyblue;
     --header-background: rgb(0, 62, 116);;
@@ -53,10 +57,6 @@ main {
     background-color: var(--header-background);
 }
 
-.photo-card {
-
-}
-
 .photo-card h4 {
     color: white;
     position: absolute;
@@ -107,13 +107,14 @@ main {
 .work-card {
     justify-content: center;
     flex-wrap: wrap;
-    flex: 2 2 0;
+    max-width: 50%;
     height: 200px;
     border-style: solid;
     border: 5px;
     border-color: var(--card-border);
     border-style: solid;
     margin: 15px;
+    overflow: hidden;
 }
 
 .work-card:first-child {
@@ -150,11 +151,13 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 .footer-menu li {
     list-style: none;
     font-size: 120%;
+    padding: 0px 40px;
 }
 
 nav a:hover {
@@ -174,17 +177,18 @@ nav a:hover {
 
     .my-work {
         width: 100%;
+        flex-direction: column;
     }
-}
 
-@media screen and (max-width: 768px) {
-    .hero {
-        height: 10px;
+    .work-card {
+        max-width: 100%;
     }
+    
 }
 
 
 
 .work-card:hover {
     box-shadow: 10px 10px 10px gray;
+
 }
