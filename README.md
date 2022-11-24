@@ -10,6 +10,8 @@ A portfolio to showcase my skills and talents to potential employers. This portf
 ## Usage
 This application can be accessed through a url over the internet. Each section contains information about myself, the projects I have developed and my contact details.
 
+https://ryanmcd29.github.io/my-portfolio/#
+
 ## Credits
 
 ## License
